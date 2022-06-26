@@ -1,3 +1,12 @@
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/5bGYUuT3VEVLa/giphy.gif" width="400px"/>
+</div>
+
+<h1>
+  hey there
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+</h1>
+
 ### Hello everyone!
 My name is Jakub I was born ![My years][my_years]. I started my experience as a devops ![My years experience][my_years_exp].
 
