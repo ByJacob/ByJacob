@@ -1,10 +1,10 @@
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/5bGYUuT3VEVLa/giphy.gif" width="400px"/>
+  <img alt="Welcome!" src="https://media.giphy.com/media/5bGYUuT3VEVLa/giphy.gif" width="400px"/>
 </div>
 
 <h1>
-  hey there
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+  Hello everyone! 
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"/>
 </h1>
 
 ### Hello everyone!
