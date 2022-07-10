@@ -24,17 +24,26 @@ jobs:
       - uses: frdmn/age-calculator-action@v1.1
         id: birthday
         with:
-          date: '1995-11-01'
-          
-      - name: Test echo
-        run: echo Test123 ${{ steps.birthday.outputs.age }}
-        shell: bash
+          date: '1995-06-01'
 
-      - name: Update when born
+      - uses: frdmn/age-calculator-action@v1.1
+        id: start_work
+        with:
+          date: '2017-07-01'
+
+      - name: Update birthday
         uses: jacobtomlinson/gha-find-replace@v2
         with:
-          find: '<span id="years_ago">\d*<\/span>'
-          replace: <span id="years_ago">${{ steps.birthday.outputs.age }}<\/span>
+          find: '<span id="birthday">\d*<\/span>'
+          replace: <span id="birthday">${{ steps.birthday.outputs.age }}</span>
+          regex: true
+          include: "README.md"
+
+      - name: Update start work
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: '<span id="start_work">\d*<\/span>'
+          replace: <span id="start_work">${{ steps.start_work.outputs.age }}</span>
           regex: true
           include: "README.md"
 
