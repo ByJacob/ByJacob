@@ -27,4 +27,8 @@ jobs:
         with:
           date: '1991-08-17'
           
+      - name: Test echo
+        run: echo Test123 ${{ steps.birthday.outputs.age }}
+        shell: bash
+          
       
