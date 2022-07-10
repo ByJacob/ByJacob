@@ -42,7 +42,9 @@ My name is Jakub. I was born <img src="https://img.shields.io/date/817776061?col
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ByJacob&layout=compact&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
 
-<img src="https://media.makeameme.org/created/it-worked-fine.jpg" width=500 />
+### :clown_face: And finally, a meme that usually show my work
+
+<img src="https://media.makeameme.org/created/it-worked-fine.jpg" width=300 />
 
 [links1]: https://bulldogjob.pl/readme/github-jak-stworzyc-wyjatkowy-profil-w-5-minut
 [links2]: https://www.sitepoint.com/github-profile-readme/
