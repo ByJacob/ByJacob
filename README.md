@@ -11,7 +11,7 @@
 
 
 ### Hello everyone!
-My name is Jakub. I was born <img src="https://img.shields.io/date/817776061?color=161B22&label=%20&style=flat-square" height="23px" />. I am from Wrocław, Poland. I love :smiling_face_with_three_hearts: my wife Agusie :couplekiss: the most in the world.
+My name is Jakub. I was born <span id="years_ago">00</span>. I am from Wrocław, Poland. I love :smiling_face_with_three_hearts: my wife Agusie :couplekiss: the most in the world.
 
 - :mage_man: I started my experience as a devops <img src="https://img.shields.io/date/1498863661?color=161B22&label=%20&style=flat-square" height="22px" />
 - :cloud:	Working with docker, kubernetes, helm, and AWS

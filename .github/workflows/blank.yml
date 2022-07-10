@@ -1,34 +1,50 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Refresh Repo info
 
 # Controls when the workflow will run
 on:
   schedule:
-  - cron: "0 0 * * *"
+    - cron: "0 0 * * *"
+  push:
+    branches:
+    - main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  refresh_readme:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
       - uses: frdmn/age-calculator-action@v1.1
         id: birthday
         with:
-          date: '1991-08-17'
+          date: '1995-11-01'
           
       - name: Test echo
         run: echo Test123 ${{ steps.birthday.outputs.age }}
         shell: bash
+
+      - name: Update when born
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: '<span id="years_ago">\d*<\/span>'
+          replace: <span id="years_ago">${{ steps.birthday.outputs.age }}<\/span>
+          regex: true
+          include: "README.md"
+
+      - name: Test file
+        run: cat README.md
+        shell: bash
+
+      # - uses: stefanzweifel/git-auto-commit-action@v4
+      #   name: push changes
+      #   with:
+      #     commit_message: Refresh README.md
           
       
