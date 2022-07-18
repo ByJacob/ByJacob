@@ -52,5 +52,8 @@ More information in [this link](https://github.com/ByJacob/Certificates)
 
 <img src="https://media.makeameme.org/created/it-worked-fine.jpg" width=300 />
 
+### :black_nib: Special dedication
+The section looks so nice thanks to the help of my wife - [:cherry_blossom:Agusia](https://github.com/nefetorve).
+
 [links1]: https://bulldogjob.pl/readme/github-jak-stworzyc-wyjatkowy-profil-w-5-minut
 [links2]: https://www.sitepoint.com/github-profile-readme/
