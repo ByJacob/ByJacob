@@ -24,12 +24,12 @@ jobs:
       - uses: frdmn/age-calculator-action@v1.1
         id: birthday
         with:
-          date: '1995-06-01'
+          date: '1996-01-01'
 
       - uses: frdmn/age-calculator-action@v1.1
         id: start_work
         with:
-          date: '2017-07-01'
+          date: '2017-01-01'
 
       - name: Update birthday
         uses: jacobtomlinson/gha-find-replace@v2
