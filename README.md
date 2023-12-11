@@ -7,8 +7,7 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"/>
 </h1>
 
-### :man_technologist: About me:
-
+### 👨‍💻 About me:
 
 ### Hello everyone!
 My name is Jakub. I was born <span id="birthday">27</span> years ago. I am from Wrocław, Poland. I love :smiling_face_with_three_hearts: [my wife Agusie](https://github.com/nefetorve) :couplekiss: the most in the world.
@@ -27,7 +26,7 @@ More information in [this link](https://github.com/ByJacob/Certificates)
 #### <img src="https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png" width=24 /> Medium
 - [301 serverless redirect in AWS (part 1)](https://medium.com/@ByJacob/301-serverless-redirect-in-aws-part-1-3904e908993f?source=friends_link&sk=dab9344b7820630cbece0ea660481ccc)
 
-### :abacus: My tech stack:
+### 🧮 My tech stack:
 
 <img src="https://img.shields.io/static/v1?label=&color=232F3E&message=Amazon AWS&logo=Amazon AWS&logoColor=white&style=for-the-badge" /> <img src="https://img.shields.io/static/v1?label=&color=FF9900&message=Amazon EC2&logo=Amazon EC2&logoColor=white&style=for-the-badge" /> <img src="https://img.shields.io/static/v1?label=&color=FF9900&message=Amazon ECS&logo=Amazon ECS&logoColor=white&style=for-the-badge" /> <img src="https://img.shields.io/static/v1?label=&color=569A31&message=Amazon S3&logo=Amazon S3&logoColor=white&style=for-the-badge" /> <img src="https://img.shields.io/static/v1?label=&color=FF9900&message=Route53&logo=data:image/png;base64,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&logoColor=white&style=for-the-badge" />
 
@@ -45,7 +44,7 @@ More information in [this link](https://github.com/ByJacob/Certificates)
 
 <img src="https://img.shields.io/static/v1?label=&color=F05032&message=Git&logo=Git&logoColor=white&style=for-the-badge" /> <img src="https://img.shields.io/static/v1?label=&color=0052CC&message=Jira&logo=Jira&logoColor=white&style=for-the-badge" /> <img src="https://img.shields.io/static/v1?label=&color=B32024&message=Redmine&logo=Redmine&logoColor=white&style=for-the-badge" /> <img src="https://img.shields.io/static/v1?label=&color=172B4D&message=Confluence&logo=Confluence&logoColor=white&style=for-the-badge" />
 
-### :fire: My Stats :
+### 🔥 My Stats :
 
 [![ByJacob's GitHub stats](https://github-readme-stats.vercel.app/api?username=ByJacob&hide=stars&show_icons=true&count_private=true&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ByJacob&layout=compact&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
 
