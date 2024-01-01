@@ -10,7 +10,7 @@
 ### 👨‍💻 About me:
 
 ### Hello everyone!
-My name is Jakub. I was born <span id="birthday">27</span> years ago. I am from Wrocław, Poland. I love :smiling_face_with_three_hearts: [my wife Agusie](https://github.com/nefetorve) :couplekiss: the most in the world.
+My name is Jakub. I was born <span id="birthday">28</span> years ago. I am from Wrocław, Poland. I love :smiling_face_with_three_hearts: [my wife Agusie](https://github.com/nefetorve) :couplekiss: the most in the world.
 
 - :mage_man: I started my experience as a devops <span id="start_work">6</span> years ago
 - :cloud:	Working with docker, kubernetes, helm, and AWS
